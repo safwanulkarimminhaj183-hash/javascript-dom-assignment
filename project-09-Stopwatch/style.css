@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+}
+
+.stopwatch-box {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 380px;
+    text-align: center;
+}
+
+h2 {
+    color: #1f2937;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+#display {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 35px;
+    font-family: monospace; 
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.btn {
+    flex: 1;
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.btn:active {
+    transform: scale(0.97);
+}
+
+.btn-start {
+    background-color: #10b981; 
+}
+.btn-start:hover {
+    background-color: #059669;
+}
+
+.btn-stop {
+    background-color: #ef4444; 
+}
+.btn-stop:hover {
+    background-color: #dc2626;
+}
+
+.btn-reset {
+    background-color: #6b7280; 
+}
+.btn-reset:hover {
+    background-color: #4b5563;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

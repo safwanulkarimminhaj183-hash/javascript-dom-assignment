@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Consolas', 'Courier New', Courier, monospace; /* ডিজিটাল ঘড়ির জন্য মনোস্পেস ফন্ট দারুণ দেখায় */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0f172a; /* একটি সুন্দর ডার্ক থিম */
+}
+
+.clock-container {
+    background-color: #1e293b;
+    padding: 40px 60px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    border: 1px solid #334155;
+    text-align: center;
+}
+
+h2 {
+    color: #94a3b8;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    font-family: 'Arial', sans-serif;
+}
+
+#digital-clock {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #38bdf8; /* গ্লোয়িং স্কাই ব্লু কালার */
+    text-shadow: 0 0 15px rgba(56, 189, 248, 0.5);
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
